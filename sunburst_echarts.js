@@ -6,802 +6,1321 @@ var myChart = echarts.init(chartDom);
 var option;
 
 var data = [
+{
+  name: 'Floral',
+  itemStyle: {
+    color: '#9346A8'
+  },
+  children: [
   {
-    name: 'Flora',
+    name: 'Ruche',
     itemStyle: {
-      color: '#da0d68'
+      color: '#9F4FB5'
     },
-    children: [
-      {
-        name: 'Black Tea',
-        value: 1,
-        itemStyle: {
-          color: '#975e6d'
-        }
-      },
-      {
-        name: 'Floral',
-        itemStyle: {
-          color: '#e0719c'
-        },
-        children: [
-          {
-            name: 'Chamomile',
-            value: 1,
-            itemStyle: {
-              color: '#f99e1c'
-            }
-          },
-          {
-            name: 'Rose',
-            value: 1,
-            itemStyle: {
-              color: '#ef5a78'
-            }
-          },
-          {
-            name: 'Jasmine',
-            value: 1,
-            itemStyle: {
-              color: '#f7f1bd'
-            }
-          }
-        ]
+    children: [{
+      name: 'Cire d abeille',
+      value: 1,
+      itemStyle: {
+        color: '#1'
       }
+    },
+    {
+      name: 'Pollen',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Propolis',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
     ]
   },
   {
-    name: 'Fruity',
+    name: 'Fleurs',
     itemStyle: {
-      color: '#da1d23'
+      color: '#A860BC'
     },
-    children: [
-      {
-        name: 'Berry',
-        itemStyle: {
-          color: '#dd4c51'
-        },
-        children: [
-          {
-            name: 'Blackberry',
-            value: 1,
-            itemStyle: {
-              color: '#3e0317'
-            }
-          },
-          {
-            name: 'Raspberry',
-            value: 1,
-            itemStyle: {
-              color: '#e62969'
-            }
-          },
-          {
-            name: 'Blueberry',
-            value: 1,
-            itemStyle: {
-              color: '#6569b0'
-            }
-          },
-          {
-            name: 'Strawberry',
-            value: 1,
-            itemStyle: {
-              color: '#ef2d36'
-            }
-          }
-        ]
-      },
-      {
-        name: 'Dried Fruit',
-        itemStyle: {
-          color: '#c94a44'
-        },
-        children: [
-          {
-            name: 'Raisin',
-            value: 1,
-            itemStyle: {
-              color: '#b53b54'
-            }
-          },
-          {
-            name: 'Prune',
-            value: 1,
-            itemStyle: {
-              color: '#a5446f'
-            }
-          }
-        ]
-      },
-      {
-        name: 'Other Fruit',
-        itemStyle: {
-          color: '#dd4c51'
-        },
-        children: [
-          {
-            name: 'Coconut',
-            value: 1,
-            itemStyle: {
-              color: '#f2684b'
-            }
-          },
-          {
-            name: 'Cherry',
-            value: 1,
-            itemStyle: {
-              color: '#e73451'
-            }
-          },
-          {
-            name: 'Pomegranate',
-            value: 1,
-            itemStyle: {
-              color: '#e65656'
-            }
-          },
-          {
-            name: 'Pineapple',
-            value: 1,
-            itemStyle: {
-              color: '#f89a1c'
-            }
-          },
-          {
-            name: 'Grape',
-            value: 1,
-            itemStyle: {
-              color: '#aeb92c'
-            }
-          },
-          {
-            name: 'Apple',
-            value: 1,
-            itemStyle: {
-              color: '#4eb849'
-            }
-          },
-          {
-            name: 'Peach',
-            value: 1,
-            itemStyle: {
-              color: '#f68a5c'
-            }
-          },
-          {
-            name: 'Pear',
-            value: 1,
-            itemStyle: {
-              color: '#baa635'
-            }
-          }
-        ]
-      },
-      {
-        name: 'Citrus Fruit',
-        itemStyle: {
-          color: '#f7a128'
-        },
-        children: [
-          {
-            name: 'Grapefruit',
-            value: 1,
-            itemStyle: {
-              color: '#f26355'
-            }
-          },
-          {
-            name: 'Orange',
-            value: 1,
-            itemStyle: {
-              color: '#e2631e'
-            }
-          },
-          {
-            name: 'Lemon',
-            value: 1,
-            itemStyle: {
-              color: '#fde404'
-            }
-          },
-          {
-            name: 'Lime',
-            value: 1,
-            itemStyle: {
-              color: '#7eb138'
-            }
-          }
-        ]
+    children: [{
+      name: 'Bruyère',
+      value: 1,
+      itemStyle: {
+        color: '#1'
       }
+    },
+    {
+      name: 'Camomille',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Géranium',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Hibiscus',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Jacynthe',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Jasmin',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Pissenlit',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Rose',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Violette',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
     ]
   },
   {
-    name: 'Sour/\nFermented',
+    name: 'Fleurs de champs',
     itemStyle: {
-      color: '#ebb40f'
+      color: '#B475C5'
     },
-    children: [
-      {
-        name: 'Sour',
-        itemStyle: {
-          color: '#e1c315'
-        },
-        children: [
-          {
-            name: 'Sour Aromatics',
-            value: 1,
-            itemStyle: {
-              color: '#9ea718'
-            }
-          },
-          {
-            name: 'Acetic Acid',
-            value: 1,
-            itemStyle: {
-              color: '#94a76f'
-            }
-          },
-          {
-            name: 'Butyric Acid',
-            value: 1,
-            itemStyle: {
-              color: '#d0b24f'
-            }
-          },
-          {
-            name: 'Isovaleric Acid',
-            value: 1,
-            itemStyle: {
-              color: '#8eb646'
-            }
-          },
-          {
-            name: 'Citric Acid',
-            value: 1,
-            itemStyle: {
-              color: '#faef07'
-            }
-          },
-          {
-            name: 'Malic Acid',
-            value: 1,
-            itemStyle: {
-              color: '#c1ba07'
-            }
-          }
-        ]
-      },
-      {
-        name: 'Alcohol/\nFremented',
-        itemStyle: {
-          color: '#b09733'
-        },
-        children: [
-          {
-            name: 'Winey',
-            value: 1,
-            itemStyle: {
-              color: '#8f1c53'
-            }
-          },
-          {
-            name: 'Whiskey',
-            value: 1,
-            itemStyle: {
-              color: '#b34039'
-            }
-          },
-          {
-            name: 'Fremented',
-            value: 1,
-            itemStyle: {
-              color: '#ba9232'
-            }
-          },
-          {
-            name: 'Overripe',
-            value: 1,
-            itemStyle: {
-              color: '#8b6439'
-            }
-          }
-        ]
+    children: [{
+      name: 'Lavande',
+      value: 1,
+      itemStyle: {
+        color: '#1'
       }
+    },
+    {
+      name: 'Colza',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Luzerne',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Sarrasin',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Tournesol',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
     ]
   },
   {
-    name: 'Green/\nVegetative',
+    name: 'Arbres et arbustes',
     itemStyle: {
-      color: '#187a2f'
+      color: '#C08CCE'
     },
-    children: [
-      {
-        name: 'Olive Oil',
-        value: 1,
-        itemStyle: {
-          color: '#a2b029'
-        }
-      },
-      {
-        name: 'Raw',
-        value: 1,
-        itemStyle: {
-          color: '#718933'
-        }
-      },
-      {
-        name: 'Green/\nVegetative',
-        itemStyle: {
-          color: '#3aa255'
-        },
-        children: [
-          {
-            name: 'Under-ripe',
-            value: 1,
-            itemStyle: {
-              color: '#a2bb2b'
-            }
-          },
-          {
-            name: 'Peapod',
-            value: 1,
-            itemStyle: {
-              color: '#62aa3c'
-            }
-          },
-          {
-            name: 'Fresh',
-            value: 1,
-            itemStyle: {
-              color: '#03a653'
-            }
-          },
-          {
-            name: 'Dark Green',
-            value: 1,
-            itemStyle: {
-              color: '#038549'
-            }
-          },
-          {
-            name: 'Vegetative',
-            value: 1,
-            itemStyle: {
-              color: '#28b44b'
-            }
-          },
-          {
-            name: 'Hay-like',
-            value: 1,
-            itemStyle: {
-              color: '#a3a830'
-            }
-          },
-          {
-            name: 'Herb-like',
-            value: 1,
-            itemStyle: {
-              color: '#7ac141'
-            }
-          }
-        ]
-      },
-      {
-        name: 'Beany',
-        value: 1,
-        itemStyle: {
-          color: '#5e9a80'
-        }
+    children: [{
+      name: 'Acacia',
+      value: 1,
+      itemStyle: {
+        color: '#1'
       }
+    },
+    {
+      name: 'Bourdaine',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Chataignier',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Chèvrefeuille',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Fleur de sureau',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Lierre',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Tilleul',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Fruits',
+  itemStyle: {
+    color: '#DB3D39'
+  },
+  children: [
+  {
+    name: 'Fruits à noyau',
+    itemStyle: {
+      color: '#DC4F38'
+    },
+    children: [{
+      name: 'Abricot',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Pêche',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Prune',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Cerise',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
     ]
   },
   {
-    name: 'Other',
+    name: 'Fruits à pépins',
     itemStyle: {
-      color: '#0aa3b5'
+      color: '#DF5B45'
     },
-    children: [
-      {
-        name: 'Papery/Musty',
-        itemStyle: {
-          color: '#9db2b7'
-        },
-        children: [
-          {
-            name: 'Stale',
-            value: 1,
-            itemStyle: {
-              color: '#8b8c90'
-            }
-          },
-          {
-            name: 'Cardboard',
-            value: 1,
-            itemStyle: {
-              color: '#beb276'
-            }
-          },
-          {
-            name: 'Papery',
-            value: 1,
-            itemStyle: {
-              color: '#fefef4'
-            }
-          },
-          {
-            name: 'Woody',
-            value: 1,
-            itemStyle: {
-              color: '#744e03'
-            }
-          },
-          {
-            name: 'Moldy/Damp',
-            value: 1,
-            itemStyle: {
-              color: '#a3a36f'
-            }
-          },
-          {
-            name: 'Musty/Dusty',
-            value: 1,
-            itemStyle: {
-              color: '#c9b583'
-            }
-          },
-          {
-            name: 'Musty/Earthy',
-            value: 1,
-            itemStyle: {
-              color: '#978847'
-            }
-          },
-          {
-            name: 'Animalic',
-            value: 1,
-            itemStyle: {
-              color: '#9d977f'
-            }
-          },
-          {
-            name: 'Meaty Brothy',
-            value: 1,
-            itemStyle: {
-              color: '#cc7b6a'
-            }
-          },
-          {
-            name: 'Phenolic',
-            value: 1,
-            itemStyle: {
-              color: '#db646a'
-            }
-          }
-        ]
-      },
-      {
-        name: 'Chemical',
-        itemStyle: {
-          color: '#76c0cb'
-        },
-        children: [
-          {
-            name: 'Bitter',
-            value: 1,
-            itemStyle: {
-              color: '#80a89d'
-            }
-          },
-          {
-            name: 'Salty',
-            value: 1,
-            itemStyle: {
-              color: '#def2fd'
-            }
-          },
-          {
-            name: 'Medicinal',
-            value: 1,
-            itemStyle: {
-              color: '#7a9bae'
-            }
-          },
-          {
-            name: 'Petroleum',
-            value: 1,
-            itemStyle: {
-              color: '#039fb8'
-            }
-          },
-          {
-            name: 'Skunky',
-            value: 1,
-            itemStyle: {
-              color: '#5e777b'
-            }
-          },
-          {
-            name: 'Rubber',
-            value: 1,
-            itemStyle: {
-              color: '#120c0c'
-            }
-          }
-        ]
+    children: [{
+      name: 'Coings',
+      value: 1,
+      itemStyle: {
+        color: '#1'
       }
+    },
+    {
+      name: 'Pomme',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Pomme verte',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Poire',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Raisin',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
     ]
   },
   {
-    name: 'Roasted',
+    name: 'Fruits rouges',
     itemStyle: {
-      color: '#c94930'
+      color: '#E26854'
     },
-    children: [
-      {
-        name: 'Pipe Tobacco',
-        value: 1,
-        itemStyle: {
-          color: '#caa465'
-        }
-      },
-      {
-        name: 'Tobacco',
-        value: 1,
-        itemStyle: {
-          color: '#dfbd7e'
-        }
-      },
-      {
-        name: 'Burnt',
-        itemStyle: {
-          color: '#be8663'
-        },
-        children: [
-          {
-            name: 'Acrid',
-            value: 1,
-            itemStyle: {
-              color: '#b9a449'
-            }
-          },
-          {
-            name: 'Ashy',
-            value: 1,
-            itemStyle: {
-              color: '#899893'
-            }
-          },
-          {
-            name: 'Smoky',
-            value: 1,
-            itemStyle: {
-              color: '#a1743b'
-            }
-          },
-          {
-            name: 'Brown, Roast',
-            value: 1,
-            itemStyle: {
-              color: '#894810'
-            }
-          }
-        ]
-      },
-      {
-        name: 'Cereal',
-        itemStyle: {
-          color: '#ddaf61'
-        },
-        children: [
-          {
-            name: 'Grain',
-            value: 1,
-            itemStyle: {
-              color: '#b7906f'
-            }
-          },
-          {
-            name: 'Malt',
-            value: 1,
-            itemStyle: {
-              color: '#eb9d5f'
-            }
-          }
-        ]
+    children: [{
+      name: 'Baie de sureau',
+      value: 1,
+      itemStyle: {
+        color: '#1'
       }
+    },
+    {
+      name: 'Cassis',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Fraise',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Framboise',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Groseille',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Mûre',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Myrtille',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
     ]
   },
   {
-    name: 'Spices',
+    name: 'Agrumes',
     itemStyle: {
-      color: '#ad213e'
+      color: '#E57765'
     },
-    children: [
-      {
-        name: 'Pungent',
-        value: 1,
-        itemStyle: {
-          color: '#794752'
-        }
-      },
-      {
-        name: 'Pepper',
-        value: 1,
-        itemStyle: {
-          color: '#cc3d41'
-        }
-      },
-      {
-        name: 'Brown Spice',
-        itemStyle: {
-          color: '#b14d57'
-        },
-        children: [
-          {
-            name: 'Anise',
-            value: 1,
-            itemStyle: {
-              color: '#c78936'
-            }
-          },
-          {
-            name: 'Nutmeg',
-            value: 1,
-            itemStyle: {
-              color: '#8c292c'
-            }
-          },
-          {
-            name: 'Cinnamon',
-            value: 1,
-            itemStyle: {
-              color: '#e5762e'
-            }
-          },
-          {
-            name: 'Clove',
-            value: 1,
-            itemStyle: {
-              color: '#a16c5a'
-            }
-          }
-        ]
+    children: [{
+      name: 'Bergamotte',
+      value: 1,
+      itemStyle: {
+        color: '#1'
       }
+    },
+    {
+      name: 'Yuzu',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Citron vert',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Citron jaune',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Clémentine',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Orange',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Pamplemousse',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
     ]
   },
   {
-    name: 'Nutty/\nCocoa',
+    name: 'Exotique',
     itemStyle: {
-      color: '#a87b64'
+      color: '#E78575'
     },
-    children: [
-      {
-        name: 'Nutty',
-        itemStyle: {
-          color: '#c78869'
-        },
-        children: [
-          {
-            name: 'Peanuts',
-            value: 1,
-            itemStyle: {
-              color: '#d4ad12'
-            }
-          },
-          {
-            name: 'Hazelnut',
-            value: 1,
-            itemStyle: {
-              color: '#9d5433'
-            }
-          },
-          {
-            name: 'Almond',
-            value: 1,
-            itemStyle: {
-              color: '#c89f83'
-            }
-          }
-        ]
-      },
-      {
-        name: 'Cocoa',
-        itemStyle: {
-          color: '#bb764c'
-        },
-        children: [
-          {
-            name: 'Chocolate',
-            value: 1,
-            itemStyle: {
-              color: '#692a19'
-            }
-          },
-          {
-            name: 'Dark Chocolate',
-            value: 1,
-            itemStyle: {
-              color: '#470604'
-            }
-          }
-        ]
+    children: [{
+      name: 'Banane',
+      value: 1,
+      itemStyle: {
+        color: '#1'
       }
+    },
+    {
+      name: 'Ananas',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Mangue',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Fruit de la passion',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Melon',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Kiwi',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Litchi',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
     ]
   },
   {
-    name: 'Sweet',
+    name: 'Fruits secs',
     itemStyle: {
-      color: '#e65832'
+      color: '#E99283'
     },
-    children: [
-      {
-        name: 'Brown Sugar',
-        itemStyle: {
-          color: '#d45a59'
-        },
-        children: [
-          {
-            name: 'Molasses',
-            value: 1,
-            itemStyle: {
-              color: '#310d0f'
-            }
-          },
-          {
-            name: 'Maple Syrup',
-            value: 1,
-            itemStyle: {
-              color: '#ae341f'
-            }
-          },
-          {
-            name: 'Caramelized',
-            value: 1,
-            itemStyle: {
-              color: '#d78823'
-            }
-          },
-          {
-            name: 'Honey',
-            value: 1,
-            itemStyle: {
-              color: '#da5c1f'
-            }
-          }
-        ]
-      },
-      {
-        name: 'Vanilla',
-        value: 1,
-        itemStyle: {
-          color: '#f89a80'
-        }
-      },
-      {
-        name: 'Vanillin',
-        value: 1,
-        itemStyle: {
-          color: '#f37674'
-        }
-      },
-      {
-        name: 'Overall Sweet',
-        value: 1,
-        itemStyle: {
-          color: '#e75b68'
-        }
-      },
-      {
-        name: 'Sweet Aromatics',
-        value: 1,
-        itemStyle: {
-          color: '#d0545f'
-        }
+    children: [{
+      name: 'Figue',
+      value: 1,
+      itemStyle: {
+        color: '#1'
       }
+    },
+    {
+      name: 'Pruneau',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Raisin sec',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
     ]
-  }
+  },
+  {
+    name: 'Fruits cuits',
+    itemStyle: {
+      color: '#ECA194'
+    },
+    children: [{
+      name: 'Compote',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Confiture',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Ecorce de fruit',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'fruit confit',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Fruit vert',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Fruit trop mûr',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Fruits à coque',
+  itemStyle: {
+    color: '#E1D31F'
+  },
+  children: [
+  {
+    name: 'Fruits à coque',
+    itemStyle: {
+      color: '#E9DF59'
+    },
+    children: [{
+      name: 'Amande',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Cacaouhète',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Noisette',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Noix',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Noix de coco',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Sucrosité',
+  itemStyle: {
+    color: '#9E5454'
+  },
+  children: [
+  {
+    name: 'Sucrosité',
+    itemStyle: {
+      color: '#AC6464'
+    },
+    children: [{
+      name: 'Mélasse',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Sucre de canne',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Sirop d érable',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Miel',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Végétal',
+  itemStyle: {
+    color: '#337D21'
+  },
+  children: [
+  {
+    name: 'Herbes sèches',
+    itemStyle: {
+      color: '#378824'
+    },
+    children: [{
+      name: 'Foin',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Herbe tondue',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Tabac',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Thé noir',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Thé vert',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
+    ]
+  },
+  {
+    name: 'Herbes aromatiques',
+    itemStyle: {
+      color: '#3C9527'
+    },
+    children: [{
+      name: 'Aneth',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Basilic',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Cannabis',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Houblon',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Citronnelle',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Menthe',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Romarin',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Feuille de laurier',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Thym',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
+    ]
+  },
+  {
+    name: 'Légumes',
+    itemStyle: {
+      color: '#50A539'
+    },
+    children: [{
+      name: 'Cèleris',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Concombre',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Tomate',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Fenouil',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Poivron',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Piment',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Potiron',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
+    ]
+  },
+  {
+    name: 'Forêt',
+    itemStyle: {
+      color: '#59B73F'
+    },
+    children: [{
+      name: 'Mousse',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Connifères, résineux',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Sous-bois',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
+    ]
+  },
+  {
+    name: 'Champignon',
+    itemStyle: {
+      color: '#69C351'
+    },
+    children: [{
+      name: 'Cave / renfermé',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Truffe',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Levure',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Pâte à pain',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Choucroute',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Animal',
+  itemStyle: {
+    color: '#CF5D96'
+  },
+  children: [
+  {
+    name: 'Animal',
+    itemStyle: {
+      color: '#CA789D'
+    },
+    children: [{
+      name: 'Cuir',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Etable',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Cheval',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Fourrure',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Gibier',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
+    ]
+  },
+  {
+    name: 'Lactique',
+    itemStyle: {
+      color: '#F6F5C0'
+    },
+    children: [{
+      name: 'Lait',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Fromage',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Beurre',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Boisé',
+  itemStyle: {
+    color: '#A16A3D'
+  },
+  children: [
+  {
+    name: 'Boisé',
+    itemStyle: {
+      color: '#BA7D4A'
+    },
+    children: [{
+      name: 'Chêne',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Pin, Sapin',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Cèdre',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Bois de Santal',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Encens',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Bois vert',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Bouchonné',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Planche',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Torréfaction',
+  itemStyle: {
+    color: '#AA8E82'
+  },
+  children: [
+  {
+    name: 'Torréfaction',
+    itemStyle: {
+      color: '#B69F94'
+    },
+    children: [{
+      name: 'Cacao',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Café',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Chocolat',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Caramel',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'pain grillé',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Brûlé',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Fumé',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Tourbé',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Epice',
+  itemStyle: {
+    color: '#FF9966'
+  },
+  children: [
+  {
+    name: 'Epice',
+    itemStyle: {
+      color: '#F8AB8C'
+    },
+    children: [{
+      name: 'Vanille',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Cannelle',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Clou de girofle',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Cardamome',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Gingembre',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Réglisse',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Anis',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Noix de muscade',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Cumin',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Curcuma',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Safran',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Moutarde',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Poivre',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Minéral',
+  itemStyle: {
+    color: '#D3D3D3'
+  },
+  children: [
+  {
+    name: 'Minéral',
+    itemStyle: {
+      color: '#E4E4E4'
+    },
+    children: [{
+      name: 'Iode',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Calcaire, craie',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Silex',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Métallique',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Pierre à fusil',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }]
+  }]
+},
+{
+  name: 'Chimique',
+  itemStyle: {
+    color: '#788DB6'
+  },
+  children: [
+  {
+    name: 'Chimique',
+    itemStyle: {
+      color: '#8D9EC1'
+    },
+    children: [{
+      name: 'Alcool',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Caoutchouc',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Carton mouillé',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Dissolvant',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Médicinal',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Pétrole',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Plastique',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Souffre',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Vernis à ongle',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    },
+    {
+      name: 'Vinaigre',
+      value: 1,
+      itemStyle: {
+        color: '#1'
+      }
+    }
+    ]
+  }]
+}
 ];
+
 option = {
   series: {
     type: 'sunburst',
@@ -822,14 +1341,14 @@ option = {
       },
       {
         r0: '35%',
-        r: '70%',
+        r: '65%',
       },
       {
-        r0: '70%',
-        r: '77%',
+        r0: '65%',
+        r: '70%',
         label: {
           position: 'outside',
-          padding: 3,
+          padding: 2,
           silent: false
         },
         itemStyle: {

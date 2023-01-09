@@ -5,6 +5,102 @@ var chartDom = document.getElementById('main');
 var myChart = echarts.init(chartDom);
 var option;
 
+function generateRadioMenu(data, id_prefix = "") {
+  let html = "";
+
+  if (data.length > 1) {
+    html = '<div class="ms-4">';
+  }
+
+  for (const group of data) {
+    let name = group['name'];
+    let children = group['children'];
+    let id = (id_prefix + name).replace(/\s/g, '');
+
+    html += '<div class="form-check">';
+    html += `<input class="form-check-input" type="checkbox"  name="${name}" value="" id="${id}" onclick="updateSelection(this)">`;
+    html += `<label class="form-check-label" for="${id}">${name}</label>`;
+    html += '</div>';
+
+    if (children) {
+      html += generateRadioMenu(children, id + "-");
+    }
+
+  }
+
+  if (data.length > 1) {
+    html += "</div>";
+  }
+
+  return html;
+}
+
+let selected = new Set();
+
+function unselectChildren(button) {
+  let maybe_div = button.parent();
+  if (!maybe_div.is('div') || !maybe_div.hasClass("form-check")) {
+    // Shouldn't really happen.
+    alert(`Something is wrong. Error #001.\nDebug: '${maybe_div}'`);
+    return;
+  }
+
+  let maybe_child_div = maybe_div.next();
+  if (!maybe_child_div.is('div') || !maybe_child_div.hasClass('ms-4')) {
+    // This item probably doesn't have a child.
+    return;
+  }
+
+  maybe_child_div.find('input').each(function() {
+    $(this).prop('checked', false);
+    selected.delete($(this).attr('name'));
+    unselectChildren($(this));
+  });
+}
+
+function selectParents(button) {
+  let maybe_div = button.closest('.ms-4');
+  if (!maybe_div) {
+    // Shouldn't really happen.
+    alert(`Something is wrong. Error #002.\nDebug: '${maybe_div}'`);
+    return;
+  }
+
+  let maybe_next = maybe_div.prev();
+  if (!maybe_next || !maybe_next.is('div') || !maybe_next.hasClass('form-check')) {
+    // We reached the outermost checkebox.
+    return;
+  }
+
+  let input = maybe_next.find('input:first');
+  input.prop('checked', true);
+  selected.add(input.attr('name'));
+  selectParents(input);
+}
+
+
+function updateSelection(button) {
+  let checked = $(button).is(':checked');
+  if (!checked) {
+    // Unselecting in chart, and unselecting all children.
+    selected.delete(button.name);
+    unselectChildren($(button));
+  } else {
+    // Selecting in chart, and selecting all parents.
+    selected.add(button.name);
+    selectParents($(button));
+  }
+
+  if (selected.size == 0) {
+    // Highlight everything
+    myChart.dispatchAction({type:"highlight"});
+  } else {
+    // Highlight things that are selected
+    myChart.dispatchAction({type:"highlight", name: Array.from(selected)});
+  }
+}
+
+
 var data = [
 {
   name: 'Floral',

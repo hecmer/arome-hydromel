@@ -1602,6 +1602,7 @@ option = {
     data: data,
     radius: [0, '100%'],
     sort: undefined,
+    nodeClick:false,
     emphasis: {
       focus: 'ancestor'
     },

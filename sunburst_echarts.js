@@ -649,7 +649,7 @@ var data = [
   {
     name: 'Vanille',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -657,7 +657,7 @@ var data = [
   {
     name: 'Cannelle',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -665,7 +665,7 @@ var data = [
   {
     name: 'Cardamome',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -673,7 +673,7 @@ var data = [
   {
     name: 'Clou de girofle',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -681,7 +681,7 @@ var data = [
   {
     name: 'Gingembre',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -689,7 +689,7 @@ var data = [
   {
     name: 'Réglisse',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -697,7 +697,7 @@ var data = [
   {
     name: 'Anis',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -705,7 +705,7 @@ var data = [
   {
     name: 'Muscade',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -713,7 +713,7 @@ var data = [
   {
     name: 'Cumin',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -721,7 +721,7 @@ var data = [
   {
     name: 'Safran',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
 
@@ -729,7 +729,7 @@ var data = [
   {
     name: 'Poivre',
     itemStyle: {
-      color: '#FAF8A0'
+      color: '#EBEB75'
     },
     value: 1,
   }]
@@ -1308,8 +1308,8 @@ option = {
     levels: [
       {},
       {
-        r0: '23%',
-        r: '47%',
+        r0: '30%',
+        r: '54%',
         itemStyle: {
           borderWidth: 2
         },
@@ -1321,8 +1321,8 @@ option = {
         },
       },
       {
-        r0: '47.5%',
-        r: '71.5%',
+        r0: '54.5%',
+        r: '78.5%',
         itemStyle: {
           borderWidth: 2
         },
@@ -1333,8 +1333,8 @@ option = {
         },
       },
       {
-        r0: '72%',
-        r: '76%',
+        r0: '78%',
+        r: '83%',
         itemStyle: {
           borderWidth: 2
         },

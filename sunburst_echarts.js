@@ -217,16 +217,8 @@ var data = [
       itemStyle: {
         color: '#8A93D6'
       }
-    }
-    ]
-  },
-  {
-    name: 'Fleurs de champs',
-    label:{color:'#000'},
-    itemStyle: {
-      color: '#969EDA'
     },
-    children: [{
+    {
       name: 'Lavande',
       value: 1,
       label:{color:'#000'},
@@ -265,16 +257,8 @@ var data = [
       itemStyle: {
         color: '#969EDA'
       }
-    }
-    ]
-  },
-  {
-    name: 'Arbres et arbustes',
-    label:{color:'#000'},
-    itemStyle: {
-      color: '#A2A9DE'
     },
-    children: [{
+    {
       name: 'Acacia',
       value: 1,
       label:{color:'#000'},
@@ -1177,7 +1161,7 @@ var data = [
   },
   children: [
   {
-    name: 'Boisé',
+    name: 'Bois',
     label:{color:'#000'},
     itemStyle: {
       color: '#CA9970'
@@ -1249,7 +1233,7 @@ var data = [
   }]
 },
 {
-  name: 'Torréfaction',
+  name: 'Torréfié',
   itemStyle: {
     color: '#9E7E66'
   },
@@ -1327,7 +1311,7 @@ var data = [
   }]
 },
 {
-  name: 'Epice',
+  name: 'Epicé',
   itemStyle: {
     color: '#CDC800'
   },
@@ -1445,7 +1429,7 @@ var data = [
   }]
 },
 {
-  name: 'Minéral',
+  name: 'Minéralité',
   itemStyle: {
     color: '#909090'
   },
@@ -1499,7 +1483,7 @@ var data = [
   }]
 },
 {
-  name: 'Chimique',
+  name: 'Artificiel',
   itemStyle: {
     color: '#687A98'
   },

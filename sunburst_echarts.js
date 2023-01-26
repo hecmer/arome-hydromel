@@ -103,227 +103,15 @@ function updateSelection(button) {
 
 var data = [
 {
-  name: 'Ruche',
-  itemStyle: {
-    color: '#F5C80B'
-  },
-  children: [
-  {
-    name: 'Miel',
-    itemStyle: {
-      color: '#F9D87B'
-    },
-    label:{color:'#000', fontWeight: 'bold'},
-    children: [{
-      name: 'Bourdaine',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#F9D87B'
-      }
-    },
-    {
-      name: 'Bruyère',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#F9D87B'
-      }
-    },
-    {
-      name: 'Châtaignier',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#F9D87B'
-      }
-    },
-    {
-      name: 'Colza',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#F9D87B'
-      }
-    },
-    {
-      name: 'Lavande',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#F9D87B'
-      }
-    },
-    {
-      name: 'Sarrasin',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#F9D87B'
-      }
-    },
-    {
-      name: 'Tilleul',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#F9D87B'
-      }
-    },
-    {
-      name: 'Tournesol',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#F9D87B'
-      }
-    }
-    ]
-  },
-  {
-    name: 'Cire d abeille',
-    itemStyle: {
-      color: '#FBE5A7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Pollen',
-    itemStyle: {
-      color: '#FBE5A7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Propolis',
-    itemStyle: {
-      color: '#FBE5A7'
-    },
-    value: 1,
-  }]
-},
-{
-  name: 'Floral',
-  itemStyle: {
-    color: '#A472DC'
-  },
-  children: [
-  {
-    name: 'Garrigue',
-    itemStyle: {
-      color: '#C09DE7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Géranium',
-    itemStyle: {
-      color: '#C09DE7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Hibiscus',
-    itemStyle: {
-      color: '#C09DE7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Rose',
-    itemStyle: {
-      color: '#C09DE7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Lavande',
-    itemStyle: {
-      color: '#C09DE7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Acacia',
-    itemStyle: {
-      color: '#C09DE7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Chèvrefeuille',
-    itemStyle: {
-      color: '#C09DE7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Fleur de sureau',
-    itemStyle: {
-      color: '#C09DE7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Violette',
-    itemStyle: {
-      color: '#C09DE7'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Infusion',
-    itemStyle: {
-      color: '#CCAFEB'
-    },
-    label:{color:'#000', fontWeight: 'bold'},
-    children: [{
-      name: 'Camomille',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#CCAFEB'
-      }
-    },
-    {
-      name: 'Tilleul',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#CCAFEB'
-      }
-    },
-    {
-      name: 'Verveine',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#CCAFEB'
-      }
-    }]
-  }]
-},
-{
   name: 'Fruits',
   itemStyle: {
-    color: '#DD4743'
+    color: '#DA5C52'
   },
   children: [
   {
     name: 'Fruits à noyau',
     itemStyle: {
-      color: '#DF5B45'
+      color: '#DC6E62'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
@@ -331,7 +119,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#DF5B45'
+        color: '#DC6E62'
       }
     },
     {
@@ -339,7 +127,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#DF5B45'
+        color: '#DC6E62'
       }
     },
     {
@@ -347,7 +135,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#DF5B45'
+        color: '#DC6E62'
       }
     },
     {
@@ -355,7 +143,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#DF5B45'
+        color: '#DC6E62'
       }
     }
     ]
@@ -363,7 +151,7 @@ var data = [
   {
     name: 'Fruits à pépins',
     itemStyle: {
-      color: '#E26854'
+      color: '#DE776C'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
@@ -371,7 +159,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E26854'
+        color: '#DE776C'
       }
     },
     {
@@ -379,7 +167,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E26854'
+        color: '#DE776C'
       }
     },
     {
@@ -387,7 +175,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E26854'
+        color: '#DE776C'
       }
     },
     {
@@ -395,7 +183,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E26854'
+        color: '#DE776C'
       }
     },
     {
@@ -403,7 +191,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E26854'
+        color: '#DE776C'
       }
     }
     ]
@@ -411,7 +199,7 @@ var data = [
   {
     name: 'Fruits rouges',
     itemStyle: {
-      color: '#E57765'
+      color: '#E18379'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
@@ -419,7 +207,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E57765'
+        color: '#E18379'
       }
     },
     {
@@ -427,7 +215,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E57765'
+        color: '#E18379'
       }
     },
     {
@@ -435,7 +223,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E57765'
+        color: '#E18379'
       }
     },
     {
@@ -443,7 +231,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E57765'
+        color: '#E18379'
       }
     },
     {
@@ -451,7 +239,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E57765'
+        color: '#E18379'
       }
     },
     {
@@ -459,7 +247,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E57765'
+        color: '#E18379'
       }
     },
     {
@@ -467,7 +255,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E57765'
+        color: '#E18379'
       }
     }
     ]
@@ -475,7 +263,7 @@ var data = [
   {
     name: 'Agrumes',
     itemStyle: {
-      color: '#E78575'
+      color: '#DF8C7B'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
@@ -483,7 +271,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E78575'
+        color: '#DF8C7B'
       }
     },
     {
@@ -491,7 +279,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E78575'
+        color: '#DF8C7B'
       }
     },
     {
@@ -499,7 +287,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E78575'
+        color: '#DF8C7B'
       }
     },
     {
@@ -507,7 +295,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E78575'
+        color: '#DF8C7B'
       }
     }
     ]
@@ -515,7 +303,7 @@ var data = [
   {
     name: 'Exotique',
     itemStyle: {
-      color: '#E99283'
+      color: '#E2998A'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
@@ -523,7 +311,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E99283'
+        color: '#E2998A'
       }
     },
     {
@@ -531,7 +319,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E99283'
+        color: '#E2998A'
       }
     },
     {
@@ -539,7 +327,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E99283'
+        color: '#E2998A'
       }
     },
     {
@@ -547,7 +335,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E99283'
+        color: '#E2998A'
       }
     },
     {
@@ -555,7 +343,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#E99283'
+        color: '#E2998A'
       }
     }
     ]
@@ -563,7 +351,7 @@ var data = [
   {
     name: 'Fruits secs',
     itemStyle: {
-      color: '#ECA194'
+      color: '#E5A497'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
@@ -571,7 +359,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#ECA194'
+        color: '#E5A497'
       }
     },
     {
@@ -579,7 +367,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#ECA194'
+        color: '#E5A497'
       }
     },
     {
@@ -587,7 +375,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#ECA194'
+        color: '#E5A497'
       }
     }
     ]
@@ -595,33 +383,9 @@ var data = [
   {
     name: 'Fruits cuits',
     itemStyle: {
-      color: '#EFB1A7'
+      color: '#E9B0A5'
     },
-    label:{color:'#000', fontWeight: 'bold'},
-    children: [{
-      name: 'Fruit vert',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#EFB1A7'
-      }
-    },
-    {
-      name: 'Confiture',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#EFB1A7'
-      }
-    },
-    {
-      name: 'Fruit trop mûr',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#EFB1A7'
-      }
-    }]
+    value: 1,
   }]
 },
 {
@@ -665,13 +429,13 @@ var data = [
 {
   name: 'Epice',
   itemStyle: {
-    color: '#CDC800'
+    color: '#EACD50'
   },
   children: [
   {
     name: 'Vanille',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -679,7 +443,7 @@ var data = [
   {
     name: 'Cannelle',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -687,7 +451,7 @@ var data = [
   {
     name: 'Cardamome',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -695,7 +459,7 @@ var data = [
   {
     name: 'Clou de girofle',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -703,7 +467,7 @@ var data = [
   {
     name: 'Gingembre',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -711,7 +475,7 @@ var data = [
   {
     name: 'Réglisse',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -719,7 +483,7 @@ var data = [
   {
     name: 'Anis',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -727,7 +491,7 @@ var data = [
   {
     name: 'Muscade',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -735,7 +499,7 @@ var data = [
   {
     name: 'Cumin',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -743,7 +507,7 @@ var data = [
   {
     name: 'Safran',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
 
@@ -751,7 +515,7 @@ var data = [
   {
     name: 'Poivre',
     itemStyle: {
-      color: '#EBEB75'
+      color: '#F4D974'
     },
     value: 1,
   }]
@@ -907,9 +671,9 @@ var data = [
     ]
   },
   {
-    name: 'Forêt',
+    name: 'Terreux',
     itemStyle: {
-      color: '#7CCC60'
+      color: '#9BD08C'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
@@ -917,7 +681,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#7CCC60'
+        color: '#9BD08C'
       }
     },
     {
@@ -925,7 +689,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#7CCC60'
+        color: '#9BD08C'
       }
     }
     ]
@@ -933,7 +697,7 @@ var data = [
   {
     name: 'Champignon',
     itemStyle: {
-      color: '#98D181'
+      color: '#9BD08C'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
@@ -941,7 +705,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#98D181'
+        color: '#9BD08C'
       }
     },
     {
@@ -949,7 +713,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#98D181'
+        color: '#9BD08C'
       }
     },
     {
@@ -957,7 +721,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#98D181'
+        color: '#9BD08C'
       }
     },
     {
@@ -965,7 +729,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#98D181'
+        color: '#9BD08C'
       }
     },
     {
@@ -973,7 +737,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#98D181'
+        color: '#9BD08C'
       }
     }]
   }]
@@ -981,53 +745,45 @@ var data = [
 {
   name: 'Animal',
   itemStyle: {
-    color: '#C76FAA'
+    color: '#C36161'
   },
   children: [
   {
-    name: 'Animal',
+    name: 'Cuir',
     itemStyle: {
-      color: '#CF83B6'
+      color: '#CD7D7D'
     },
-    label:{color:'#000', fontWeight: 'bold'},
-    children: [{
-      name: 'Cuir',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#CF83B6'
-      }
+    value: 1,
+
+  },
+  {
+    name: 'Etable',
+    itemStyle: {
+      color: '#CD7D7D'
     },
-    {
-      name: 'Etable',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#CF83B6'
-      }
+    value: 1,
+
+  },
+  {
+    name: 'Pipi de chat',
+    itemStyle: {
+      color: '#CD7D7D'
     },
-    {
-      name: 'Fourrure',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#CF83B6'
-      }
+    value: 1,
+
+  },
+  {
+    name: 'Gibier',
+    itemStyle: {
+      color: '#CD7D7D'
     },
-    {
-      name: 'Gibier',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#CF83B6'
-      }
-    }
-    ]
+    value: 1,
+
   },
   {
     name: 'Lactique',
     itemStyle: {
-      color: '#D99BC4'
+      color: '#C98D8D'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
@@ -1035,7 +791,7 @@ var data = [
       value: 1,
       label:{color:'#000'},
       itemStyle: {
-        color: '#D99BC4'
+        color: '#C98D8D'
       }
     }]
   }]
@@ -1061,23 +817,7 @@ var data = [
       }
     },
     {
-      name: 'Pin, Sapin',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#CA9970'
-      }
-    },
-    {
       name: 'Cèdre',
-      value: 1,
-      label:{color:'#000'},
-      itemStyle: {
-        color: '#CA9970'
-      }
-    },
-    {
-      name: 'Bois de Santal',
       value: 1,
       label:{color:'#000'},
       itemStyle: {
@@ -1101,6 +841,14 @@ var data = [
       }
     },
     {
+      name: 'Planche',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#CA9970'
+      }
+    },
+    {
       name: 'Bouchonné',
       value: 1,
       label:{color:'#000'},
@@ -1109,7 +857,7 @@ var data = [
       }
     },
     {
-      name: 'Planche',
+      name: 'Carton mouillé',
       value: 1,
       label:{color:'#000'},
       itemStyle: {
@@ -1119,13 +867,13 @@ var data = [
     ]
   },
   {
-    name: 'Sucres',
+    name: 'Résiné',
     itemStyle: {
       color: '#D7B395'
     },
     label:{color:'#000', fontWeight: 'bold'},
     children: [{
-      name: 'Sucre de canne',
+      name: 'Propolis',
       value: 1,
       label:{color:'#000'},
       itemStyle: {
@@ -1133,11 +881,35 @@ var data = [
       }
     },
     {
-      name: 'Sirop d érable',
+      name: 'Connifère, sapin',
       value: 1,
       label:{color:'#000'},
       itemStyle: {
         color: '#D7B395'
+      }
+    }
+    ]
+  },
+  {
+    name: 'Sucres',
+    itemStyle: {
+      color: '#DBBEA9'
+    },
+    label:{color:'#000', fontWeight: 'bold'},
+    children: [{
+      name: 'Mélasse',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#DBBEA9'
+      }
+    },
+    {
+      name: 'Sirop d érable',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#DBBEA9'
       }
     }]
   }]
@@ -1181,7 +953,7 @@ var data = [
 
   },
   {
-    name: 'Fumé',
+    name: 'Fumé, tourbé',
     itemStyle: {
       color: '#C4B1A8'
     },
@@ -1195,15 +967,7 @@ var data = [
   },
   children: [
   {
-    name: 'Iode',
-    itemStyle: {
-      color: '#CBCBCB'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Calcaire, craie',
+    name: 'Iode, sel',
     itemStyle: {
       color: '#CBCBCB'
     },
@@ -1219,7 +983,7 @@ var data = [
 
   },
   {
-    name: 'Métallique',
+    name: 'Pierre à fusil',
     itemStyle: {
       color: '#CBCBCB'
     },
@@ -1227,7 +991,7 @@ var data = [
 
   },
   {
-    name: 'Pierre à fusil',
+    name: 'Métallique',
     itemStyle: {
       color: '#CBCBCB'
     },
@@ -1240,46 +1004,6 @@ var data = [
     color: '#7D8DA7'
   },
   children: [
-  {
-    name: 'Carton mouillé',
-    itemStyle: {
-      color: '#AFBBD5'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Caoutchouc',
-    itemStyle: {
-      color: '#AFBBD5'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Plastique',
-    itemStyle: {
-      color: '#AFBBD5'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Pétrole',
-    itemStyle: {
-      color: '#AFBBD5'
-    },
-    value: 1,
-
-  },
-  {
-    name: 'Dissolvant',
-    itemStyle: {
-      color: '#AFBBD5'
-    },
-    value: 1,
-
-  },
   {
     name: 'Médicinal',
     itemStyle: {
@@ -1311,6 +1035,148 @@ var data = [
     },
     value: 1,
 
+  },
+  {
+    name: 'Pétrochimique',
+    itemStyle: {
+      color: '#AFBBD5'
+    },
+    label:{color:'#000', fontWeight: 'bold'},
+    children: [{
+      name: 'Dissolvant',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#AFBBD5'
+      }
+    },
+    {
+      name: 'Plastique',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#AFBBD5'
+      }
+    },
+    {
+      name: 'Caoutchouc',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#AFBBD5'
+      }
+    }]
+  }]
+},
+{
+  name: 'Floral',
+  itemStyle: {
+    color: '#A472DC'
+  },
+  children: [
+  {
+    name: 'Fleurs fraiches',
+    itemStyle: {
+      color: '#BA93E5'
+    },
+    label:{color:'#000', fontWeight: 'bold'},
+    children: [{
+      name: 'Acacia',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#BA93E5'
+      }
+    },
+    {
+      name: 'Bruyère',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#BA93E5'
+      }
+    },
+    {
+      name: 'Colza',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#BA93E5'
+      }
+    },
+    {
+      name: 'Géranium',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#BA93E5'
+      }
+    },
+    {
+      name: 'Hibiscus',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#BA93E5'
+      }
+    },
+    {
+      name: 'Lavande',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#BA93E5'
+      }
+    },
+    {
+      name: 'Rose',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#BA93E5'
+      }
+    },
+    {
+      name: 'Violette',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#BA93E5'
+      }
+    }
+    ]
+  },
+  {
+    name: 'Infusion',
+    itemStyle: {
+      color: '#CCAFEB'
+    },
+    label:{color:'#000', fontWeight: 'bold'},
+    children: [{
+      name: 'Camomille',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#CCAFEB'
+      }
+    },
+    {
+      name: 'Tilleul',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#CCAFEB'
+      }
+    },
+    {
+      name: 'Verveine',
+      value: 1,
+      label:{color:'#000'},
+      itemStyle: {
+        color: '#CCAFEB'
+      }
+    }
+    ]
   }]
 }
 ];
@@ -1330,8 +1196,8 @@ option = {
     levels: [
       {},
       {
-        r0: '30%',
-        r: '54%',
+        r0: '23%',
+        r: '48%',
         itemStyle: {
           borderWidth: 2
         },
@@ -1339,12 +1205,12 @@ option = {
           align: 'right',
           color: '#000',
           fontWeight: 'bold',
-          padding: 4
+          padding: 7
         },
       },
       {
-        r0: '54.5%',
-        r: '78.5%',
+        r0: '48.5%',
+        r: '71.5%',
         itemStyle: {
           borderWidth: 2
         },
@@ -1355,8 +1221,8 @@ option = {
         },
       },
       {
-        r0: '79%',
-        r: '84%',
+        r0: '72%',
+        r: '77%',
         itemStyle: {
           borderWidth: 2
         },

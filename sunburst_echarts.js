@@ -102,8 +102,6 @@ function updateSelection(button) {
 
 
 var data = [
-
-[
 {
 name: 'Fruits',
 itemStyle: {

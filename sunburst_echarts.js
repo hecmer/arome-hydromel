@@ -1237,7 +1237,7 @@ option = {
       },
       {
         r0: '50.5%',
-        r: '77.5%',
+        r: '78.5%',
         itemStyle: {
           borderWidth: 2
         },
@@ -1248,8 +1248,8 @@ option = {
         },
       },
       {
-        r0: '78%',
-        r: '82%',
+        r0: '79%',
+        r: '84%',
         itemStyle: {
           borderWidth: 2
         },

@@ -1223,8 +1223,8 @@ option = {
     levels: [
       {},
       {
-        r0: '18%',
-        r: '43%',
+        r0: '26%',
+        r: '51%',
         itemStyle: {
           borderWidth: 2
         },
@@ -1236,8 +1236,8 @@ option = {
         },
       },
       {
-        r0: '43.5%',
-        r: '66.5%',
+        r0: '51.5%',
+        r: '74.5%',
         itemStyle: {
           borderWidth: 2
         },
@@ -1248,8 +1248,8 @@ option = {
         },
       },
       {
-        r0: '67%',
-        r: '72%',
+        r0: '75%',
+        r: '80%',
         itemStyle: {
           borderWidth: 2
         },

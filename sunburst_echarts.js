@@ -102,6 +102,7 @@ function updateSelection(button) {
 
 
 var data = [
+
 [
 {
 name: 'Fruits',
@@ -332,7 +333,7 @@ color: '#E2998A'
 }
 },
 {
-name: 'Fruit de la passion',
+name: 'Passion',
 value: 1,
 label:{color:'#000'},
 itemStyle: {
@@ -882,7 +883,7 @@ color: '#D7B395'
 }
 },
 {
-name: 'Connifère, sapin',
+name: 'Connifère',
 value: 1,
 label:{color:'#000'},
 itemStyle: {
@@ -906,7 +907,7 @@ value: 1,
 
 },
 {
-name: 'Sirop d'érable',
+name: 'Sirop d érable',
 itemStyle: {
 color: '#C7776F'
 },
@@ -1209,7 +1210,6 @@ color: '#CCAFEB'
 }]
 }
 ];
-
 
 option = {
   series: {
